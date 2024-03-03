@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PayBill</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="PAYBILL.css">
-  </head>
+    <link rel="stylesheet" href="paybill.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">  </head>
 
   <body>
 
@@ -23,12 +24,14 @@
 
     <div class="container">
     <div class="username">
-        <strong>WELCOME CustName</strong>
-        <button id="logoutbtn" type="button">LOGOUT [-></button>
+        <strong>WELCOME</strong> CustName
+        <button id="logoutbtn" type="button">LOGOUT &nbsp;<i class="bi bi-box-arrow-right"></i></button>
     </div>
 
     <div class="viewbill">
-        Bill payment
+        <b>View Bill & Pay</b> 
+        <i class="bi bi-chevron-double-right s1"></i>
+        
     </div>
 
     <div class="consumerdetails">
@@ -42,7 +45,7 @@
         </tr>  
         <tr>
             <td class="td1">6528513584612</td>
-            <td class="td2"><input type="checkbox"></input> </td>
+            <td class="td2"><input type="checkbox" name="checkbox"></input> </td>
             <td class="td3">0.00</td>
             <td class="td4">0.00</td>
         </tr>
@@ -62,15 +65,15 @@
     </div>
 
     <div id="payable" >
-        <strong> Ammount Payble <span style="color:lightcoral;">₹ 2028.00</span></strong>
+        <strong> Ammount Payble &nbsp;<span style="color:lightcoral;">₹ 2028.00</span></strong>
     </div>
-
+    <hr>
     <div id="paybtn">
-        <button type="button">Proceed to Pay</button>
+        <a href="..\View bill\viewbill.html" style="text-decoration: none; color: white;"><button type="submit" class="paybtns">Proceed to Pay</a></button>
     </div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="PAYBILLscript.js"></script>
+    <script src="paybill.js"></script>
   </body>
 </html>

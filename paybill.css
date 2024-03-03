@@ -7,9 +7,9 @@ h3{
 }
 
 .navbar, .navbar a{
-    
+    font-size: 15px;
     flex-direction: row;
-    color: white;
+    color: rgb(100, 100, 100);
     text-decoration: none;
     background-color: rgb(177, 177, 177);
     gap: 5px;
@@ -48,17 +48,37 @@ nav{
     background-color: rgb(0, 183, 255);
     border-radius: 5px;
 }
+.s2{
+    float: right;
+    font-size: 30px;
+    margin-top: -10px;
+    opacity: 0.6;
+}
+.s1{
+    float: right;
+    font-size: 30px;
+    margin-top: -10px;
+    opacity: 0.8;
+    position: relative;
+    right: -15px;
+}
 
 .consumerdetails th{
     color: white;
     background-color: rgb(161, 161, 161);
-    
+    padding: 8px 25px ;
 }
 .consumerdetails{
     display: grid;
     background-color: white;
     margin: 8px 0px;
+    
 }
+
+table tr, hr{
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+
 table .td1 {
     border-radius: 5px 0px 0px;
 }
@@ -75,7 +95,7 @@ table .td4 {
     text-align: right;
 }
 th, td{
-    padding:0px  50px 0px 25px ;
+    padding: 8px 25px ;
 }
 
 #payable{
