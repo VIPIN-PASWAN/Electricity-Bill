@@ -7,9 +7,9 @@ h3{
 }
 
 .navbar, .navbar a{
-    
+    font-size: 15px;
     flex-direction: row;
-    color: white;
+    color: rgb(100, 100, 100);
     text-decoration: none;
     background-color: rgb(177, 177, 177);
     gap: 5px;
@@ -37,6 +37,10 @@ nav{
     background-color: rgb(245, 63, 31);
 }
 
+.container{
+    padding: 8px;
+}
+
 .viewbill{
     padding: 5px 25px;
     margin:  5px 0px;
@@ -57,23 +61,26 @@ nav{
     border-radius: 5px;
 }
 
-.consumerdetails{
-    color: white;
-    background-color: rgb(80, 80, 80);
-    margin: 10px 0px; 
-}
-.billdetail{
-    display: grid;
-    grid-template-columns: auto auto;
+
+
+.consumerdetails table{
     background-color: rgb(212, 212, 212);
+    width: 100%;
 }
+.consumerdetails td{
+    border-bottom: 2px solid rgb(180, 180, 180);   
+}
+.consumerdetails th{
+    background-color: grey;
+}
+
+
 .billammount{
     color: tomato;
     text-align: center;
 }
-.billdetailsheading{
+.billdetailsheading, .billtag{
     padding: 8px 25px ;
-
 }
 .billheading{
     padding-left: 25px;
@@ -93,7 +100,7 @@ nav{
     background-color:rgb(0, 183, 255) ;
 }
 
-.billtable tr, td, th{
+.billtable tr, .billtable td, .billtable th{
     border: 1px solid black;   
 }
 
