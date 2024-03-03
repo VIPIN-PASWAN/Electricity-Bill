@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PayBill</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="viewbill.css" />
+  </head>
+
+  <body>
+    <h3>Quick EBill</h3>
+
+    <div class="navbar grid-conatainer">
+      <nav>
+        <a href="#">HOME</a>
+        <a href="#">PAY BILL</a>
+        <a href="#">COMPLAINT STATUS</a>
+        <a href="#">REGISTER COMPLAINT</a>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="username">
+        <strong>WELCOME CustName</strong>
+        <button id="logoutbtn" type="button">LOGOUT [-></button>
+      </div>
+
+      <div class="viewbill">Bill payment</div>
+      <div class="viewbillcontent">
+      <b>For Detaild Payment Instructions</b>
+      <button type="button" id="detailpaymentbtn">Click Here</button>
+    </div>
+
+      <div class="consumerdetails">
+        <div class="billdetailsheading"><strong>Bill Details</strong></div>
+        <div class="billdetail">
+          <div class="billheading">
+            <div>Bill Ammount</div>
+            <div>Total Payable Ammount</div>
+            <div>PG Charge</div>
+          </div>
+          <div class="billammount">
+            <div>₹ 2028.00</div>
+            <div>₹ 2028.00</div>
+            <div>As Applicable</div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="billtable">
+        <table>
+          <tr class="head">
+            <th>Consumer Number</th>
+            <th>Bill Number</th>
+            <th>Payable Ammount</th>
+          </tr>
+          <tr class="body">
+            <td>1156789068988</td>
+            <td>354523456</td>
+            <td>Rs. 2028</td>
+          </tr>
+        </table>
+      </div>
+
+      
+      <div class="paymentmode">
+
+        <div><b>Kindly select your mode of payment</b></div>
+        <hr>
+        <div class="crbtn">
+        <input type="radio" id="credit" name="paymentmode" value="Credit Card" />
+        <label for="credit">Credit Card</label>
+        <!-- </div> -->
+
+        <!-- <div class="debtn"> -->
+        <input type="radio" id="debit" name="paymentmode" value="Credit Card" />
+        <label for="debit">Debit Card</label>
+        </div>
+        
+      </div>
+
+      <div class="btn">
+      <div id="paybtn">
+        <button type="button">Pay Now</button>
+      </div>
+      <div id="backhome">
+        <button type="button">Back to home</button>
+      </div>
+    </div>
+    </div>
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+     ></script>
+     <script src="PAYBILLscript.js"></script>
+  </body>
+</html>
