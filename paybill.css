@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+h3{
+    padding: 1% 6%;
+    color: maroon;
+}
+
+.navbar, .navbar a{
+    
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(177, 177, 177);
+    gap: 5px;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    padding-left: 10%;
+}
+
+.container{
+    padding: 8px ;
+}
+
+.username{
+    padding: 4px;
+    color: grey;
+    text-align-last: right;
+}
+.username button{
+    padding:2px 20px;
+    color: white;
+    background-color: tomato;
+    border-radius: 15px;
+    border-style: none;
+}
+.username button:hover{
+    background-color: rgb(245, 63, 31);
+}
+
+.viewbill{
+    padding: 5px 25px;
+    margin:  5px 0px;
+    color: white;
+    background-color: rgb(0, 183, 255);
+    border-radius: 5px;
+}
+
+.consumerdetails th{
+    color: white;
+    background-color: rgb(161, 161, 161);
+    
+}
+.consumerdetails{
+    display: grid;
+    background-color: white;
+    margin: 8px 0px;
+}
+table .td1 {
+    border-radius: 5px 0px 0px;
+}
+table .td4 {
+    border-radius: 0px 5px 0px 0px;
+}
+.td1{
+    text-align: left;
+}
+.td2{
+    text-align: center;
+}
+.td4, .td3{
+    text-align: right;
+}
+th, td{
+    padding:0px  50px 0px 25px ;
+}
+
+#payable{
+    text-align: right;
+    color: rgb(218, 52, 52);
+}
+/* #payable span{
+    
+    color: lightcoral;
+} */
+
+#paybtn{
+    display: flex;
+    justify-content: center;
+    
+}
+#paybtn button{
+    color: white;
+    background-color: rgb(0, 183, 255);
+    border-style: none;
+    border-radius: 5px;
+}
+#paybtn button:hover{
+    background-color: rgb(0, 152, 212);
+}
