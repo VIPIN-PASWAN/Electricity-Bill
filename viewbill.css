@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+h3{
+    padding: 1% 6%;
+    color: maroon;
+}
+
+.navbar, .navbar a{
+    
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(177, 177, 177);
+    gap: 5px;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    padding-left: 10%;
+}
+
+.username{
+    padding: 4px;
+    color: grey;
+    text-align-last: right;
+}
+.username button{
+    padding:2px 20px;
+    color: white;
+    background-color: tomato;
+    border-radius: 15px;
+    border-style: none;
+}
+.username button:hover{
+    background-color: rgb(245, 63, 31);
+}
+
+.viewbill{
+    padding: 5px 25px;
+    margin:  5px 0px;
+    color: white;
+    background-color: rgb(0, 183, 255);
+    border-radius: 5px;
+
+}
+.viewbillcontent{
+    display: flex;
+    margin: 15px 0px;
+}
+#detailpaymentbtn{
+    margin-left: 25px;
+    color: white;
+    background-color: rgb(0, 183, 255);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.consumerdetails{
+    color: white;
+    background-color: rgb(80, 80, 80);
+    margin: 10px 0px; 
+}
+.billdetail{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(212, 212, 212);
+}
+.billammount{
+    color: tomato;
+    text-align: center;
+}
+.billdetailsheading{
+    padding: 8px 25px ;
+
+}
+.billheading{
+    padding-left: 25px;
+    color: black;
+}
+
+.billtable{
+    display: inline-block;
+    margin: 5px 0px;
+    margin-left: 15%;
+}
+
+
+.billtable th{
+    padding: 0px 5px;
+    color: white;
+    background-color:rgb(0, 183, 255) ;
+}
+
+.billtable tr, td, th{
+    border: 1px solid black;   
+}
+
+.paymentmode{
+    color: rgb(0, 183, 255);
+}
+.paymentmode hr{
+    color: black;
+}
+
+.crbtn{
+    color: black;
+    margin: 3% 0%;
+}
+.crbtn #credit{
+    margin-left: 17%;
+}
+.crbtn #debit{
+    margin-left: 5%;
+}
+
+.btn{
+    display: inline-flex;
+    column-gap:25px;
+    margin-left: 40%;
+}
+
+#paybtn button{
+    color: white;
+    background-color: rgb(0, 183, 255);
+    border-style: none;
+    border-radius: 5px;
+}
+#paybtn button:hover, #detailpaymentbtn:hover{
+    background-color: rgb(0, 152, 212);
+}
+#backhome button{
+    color: white;
+    background-color: rgb(95, 95, 95);
+    border-style: none;
+    border-radius: 5px;
+}
+#backhome button:hover{
+    background-color: rgb(61, 61, 61);
+}
